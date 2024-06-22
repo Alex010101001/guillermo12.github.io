@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuicateco</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #A8A8A8;
+        }
+        h1 {
+            font-family: 'Showcard Gothic', sans-serif;
+        }
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #A8A8A8;
+        }
+        .button a {
+            text-decoration: none;
+            color: inherit;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: left;
+        }
+        .contact-form div {
+            margin-bottom: 15px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center><h1>Cuicateco</h1></center>
+    </header>
+    <hr color="#A8A8A8" width="100%">
+    
+    <center>
+        <button class="button"><a href="contacto.html">Contacto</a></button>
+        <button class="button"><a href="https://www.culinaryartschool.edu.mx/cocinasdemexico/Biblioteca/unidad-4/bloque6/el-cuicateco.pdf">Ver PDF</a></button>
+        <button class="button"><a href="https://sic.gob.mx/ficha.php?table=grupo_etnico&table_id=51">Ir a Página Web</a></button>
+    </center>
+    <hr color="#A8A8A8" width="100%">
+
+    <center>
+        <p style="font-family: 'Showcard Gothic'; font-size: 30px; color: #A8A8A8;">
+            Las lenguas cuicatecas pertenecen al grupo mixtecano de la familia lingüística oto-mangue.
+        </p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Mujer_Cuicateca.JPG" alt="Mujer Cuicateca" width="500" height="250">
+        
+        <p style="font-size: 18px; color: green;">
+            El área históricamente ocupada por los cuicatecos se conoce como La Cañada. Las lenguas cuicatecas se hablan al norte de Oaxaca (18 municipios).
+        </p>
+        
+        <hr color="#A8A8A8" width="100%">
+        
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Precio</th>
+                <th>Audio</th>
+            </tr>
+            <tr>
+                <td><img src="https://example.com/cuicateco1.jpg" alt="Cuicateco 1" width="250"></td>
+                <td>$100</td>
+                <td><audio src="https://example.com/audio1.mp3" controls></audio></td>
+            </tr>
+            <tr>
+                <td><img src="https://example.com/cuicateco2.jpg" alt="Cuicateco 2" width="250" height="250"></td>
+                <td>$400</td>
+                <td><audio src="https://example.com/audio2.mp3" controls></audio></td>
+            </tr>
+            <tr>
+                <td><img src="https://example.com/cuicateco3.jpg" alt="Cuicateco 3" width="250"></td>
+                <td>$500</td>
+                <td><audio src="https://example.com/audio3.mp3" controls></audio></td>
+            </tr>
+        </table>
+        
+        <video width="320" height="240" controls>
+            <source src="https://example.com/video.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        
+        <div class="separator"></div>
+    </center>
+    
+    <html>
+    <head> 
+        <title>Contacto</title>
+    </head>
+    <body>
+        <center>
+            <header>
+                <h1>Formulario de Contacto</h1>
+            </header>
+            <form class="contact-form">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad">
+                </div>
+                <div>
+                    <label for="genero">Género:</label>
+                    <select id="genero" name="genero">
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+                </div>
+                <div>
+                    <label for="archivo">Subir archivo:</label>
+                    <input type="file" id="archivo" name="archivo">
+                </div>
+                <div class="buttons">
+                    <button type="submit">Enviar</button>
+                    <button><a href="index1.html">Regresar</a></button>
+                </div>
+            </form>
+        </center>
+    </body>
+    </html>
+</body>
+</html>
